@@ -31,28 +31,31 @@
         </div>
       </div>
       <div class="row">
-        <div class="span8">
+        <div class="span12">
+          <form>
+            <legend>Add a part</legend>            
+            <label>Make</label>
+            <input type="make" name="" />
 
-          <div class="pitch">Pitch</div>
+            <label>Model</label>
+            <input type="model" name="" />
 
-        </div>
-        <div class="span4 thing-rows">
-              
-          <div class="thing">
-            View these pages:
+            <label>Description</label>
+            <textarea rows="5"></textarea>
 
-            <ul>
-              <li><a href="/profile.html">Profile</a></li>
-              <li><a href="/new-project.html">New Project</a></li>
-              <li><a href="/new-part.html">New Part</a></li>
-            </ul>
-          </div>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="inside" checked>
+              Inside
+            </label>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="outside">
+              Outside
+            </label>            
 
-        </div>
-      </div>
-      <div class="row">
-        <div class="span12 footer">
-          (c) 2012
+            <div class="form-actions">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
